@@ -4,5 +4,6 @@ export enum ComponentTypes {
 	RightArm = 2,
 	Core     = 4,
 	LeftLeg  = 8,
-	RightLeg = 16
+	RightLeg = 16,
+	Weapon   = 32
 }
