@@ -4,7 +4,8 @@
   "description": "A gome about collecting robots",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
+    "build": "tsc",
     "typings:install": "typings install"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "author": "Shaun Hammill",
   "license": "ISC",
   "devDependencies": {
+    "jasmine": "^2.4.1",
     "typescript": "^1.8.10",
     "typings": "^1.3.2"
   }
