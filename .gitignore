@@ -44,3 +44,6 @@ jspm_packages
 
 # Typings generated folder
 typings
+
+#Typescript output
+out
